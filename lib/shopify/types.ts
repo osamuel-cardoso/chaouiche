@@ -8,7 +8,7 @@ export type Edge<T> = {
   node: T;
 };
 
-export type Cart = Omit<ShopifyCart, 'lines'> & {
+export type ReshapedCart = Omit<ShopifyCart, 'lines'> & {
   lines: CartItem[];
 };
 

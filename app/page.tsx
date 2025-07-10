@@ -13,6 +13,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <>
+    oi
       <ThreeItemGrid />
       <Carousel />
       <Footer />
